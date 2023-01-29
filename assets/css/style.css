@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Pontano+Sans&family=Roboto+Slab&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     font-family: Roboto Slab, sans-serif;
     font-weight: 300;
@@ -52,28 +58,43 @@ h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
-#hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-
-    position: relative;
-}
-
 #cover-text,
 #cover-text h2 {
     color: #fff;
 }
 
-#hero-image {
+/* hero image */
+
+#hero-outer {
     height: 600px;
     width: 100%;
-    background: url('../../../assets/images/hero_image.jpg') no-repeat center center;
-    background-size: cover;
+    overflow: hidden;
 }
+
+#hero-image {
+    height: 600px;
+    max-width: 100%;
+    background: url('../../../assets/images/hero_image.webp') no-repeat center center;
+    background-size: contain;
+
+    /* animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.4);
+    }
+
+}
+
+/* @media only screen (min-width: 760px) {
+        {}
+} */
