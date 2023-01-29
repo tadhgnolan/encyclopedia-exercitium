@@ -151,3 +151,18 @@ h2 {
     width: 100%;
     overflow: hidden;
 }
+
+#blog-list div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 1.88rem 0 0 0.625rem;
+    text-align: center;
+    border: 0.0625rem solid white;
+}
+
+#blog-list h2 {
+    color: #fafafa;
+}
