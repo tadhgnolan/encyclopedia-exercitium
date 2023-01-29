@@ -193,3 +193,22 @@ footer {
 #bodyweight-exercises {
     clear: both;
 }
+
+#bodyweight-exercises, div, h2 {
+    margin: 50px 50px;
+}
+
+p {
+    margin: 25px 50px;
+}
+
+#kettlebell-exercises {
+    clear: both;
+}
+
+.exercise-images {
+    margin: 1% 25% 1% 25%;
+    width: 50%;
+    height: auto;
+}
+
