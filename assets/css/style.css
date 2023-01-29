@@ -112,36 +112,13 @@ h2 {
     background-color: rgba(241, 109, 107, .7);
 
     bottom: 30px;
-    right: 140px;
+    right: 150px;
 
     position: absolute;
 }
 
-#cover-text, h3 {
+#cover-text h3 {
     font-size: 1rem;
-}
-
-@media screen and (max-width: 900px),
-(min-width: 300px) {
-    #cover-text {
-        font-size: 100%;
-        font-family: Pontano Sans, sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 0.25rem;
-
-        width: 15rem;
-        height: 15rem;
-
-        padding-top: 0.625rem;
-        padding-left: 0.625rem;
-
-        background-color: rgba(241, 109, 107, .7);
-
-        bottom: 8rem;
-        right: 0.0625rem;
-
-        position: absolute;
-    }
 }
 
 /* blog list */
@@ -194,7 +171,7 @@ footer {
     clear: both;
 }
 
-#bodyweight-exercises, div, h2 {
+#bodyweight-exercises div h2 {
     margin: 50px 50px;
 }
 
@@ -206,9 +183,40 @@ p {
     clear: both;
 }
 
+#kettlebell-exercises div h2 {
+    margin: 50px 50px;
+}
+
 .exercise-images {
     margin: 1% 25% 1% 25%;
     width: 50%;
     height: auto;
+    border-radius: 25%;
+}
+
+/* For larger to medium screens from 1200px wide and down */
+@media screen and (max-width: 1200px){
+    #blog-list {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0S;
+    }
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+    
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
 }
 
