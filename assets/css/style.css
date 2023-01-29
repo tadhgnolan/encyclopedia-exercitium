@@ -189,3 +189,7 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
+#bodyweight-exercises {
+    clear: both;
+}
