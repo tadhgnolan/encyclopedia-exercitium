@@ -24,7 +24,7 @@ h2 {
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 200%;
     margin-left: 1.88rem;
 }
 
@@ -40,8 +40,12 @@ h2 {
     line-height: 75px;
 }
 
-#menu li {
+#menu {
     float: right;
+}
+
+#menu li {
+    display: inline-block;
     list-style-type: none;
     margin-right: 30px;
 }
@@ -93,12 +97,13 @@ h2 {
     }
 
     to {
-        transform: scale(1.4);
+        transform: scale(1.1);
     }
 
 }
 
 #cover-text {
+    font-size: 110%;
     font-family: Pontano Sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -111,15 +116,15 @@ h2 {
 
     background-color: rgba(241, 109, 107, .7);
 
-    bottom: 30px;
+    bottom: 120px;
     right: 150px;
 
     position: absolute;
 }
 
-#cover-text h3 {
+/* #cover-text h3 {
     font-size: 1rem;
-}
+} */
 
 /* blog list */
 
@@ -141,6 +146,7 @@ h2 {
     padding: 1.88rem 0 0 0.625rem;
     text-align: center;
     border: 0.0625rem solid white;
+    box-sizing: border-box;
 }
 
 #blog-list h2 {
@@ -213,6 +219,14 @@ p {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+    }
+
+    #hero-outer {
+        width: 400%;
+    }
+
+    #hero-image {
+        max-width: 400%;
     }
 
     #cover-text {
