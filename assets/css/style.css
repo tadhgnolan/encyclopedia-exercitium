@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Roboto Slab, sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     font-weight: 300;
     color: #3a3a3a;
 }
@@ -16,7 +16,7 @@ body {
 
 h1,
 h2 {
-    font-family: Alegreya Sans SC, sans-serif;
+    font-family: 'Alegreya Sans SC', sans-serif;
     text-transform: uppercase;
     letter-spacing: .25rem;
     color: #252525;
@@ -104,7 +104,7 @@ h2 {
 
 #cover-text {
     font-size: 110%;
-    font-family: Pontano Sans, sans-serif;
+    font-family: 'Pontano Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: .25rem;
 
@@ -150,7 +150,7 @@ h2 {
 }
 
 form {
-    font-family: Roboto Slab, sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     padding-left: 33%;
 }
 
