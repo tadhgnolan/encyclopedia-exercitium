@@ -122,10 +122,6 @@ h2 {
     position: absolute;
 }
 
-/* #cover-text h3 {
-    font-size: 1rem;
-} */
-
 /* blog list */
 
 #blog-list {
@@ -150,6 +146,32 @@ h2 {
 }
 
 #blog-list h2 {
+    color: #fafafa;
+}
+
+form {
+    font-family: Roboto Slab, sans-serif;
+    padding-left: 33%;
+}
+
+input[type=email] {
+    background-color:rgb(20,34,43);
+    color: #fafafa 
+}
+
+input[type=submit] {
+    background-color: rgb(38,51,67);
+    color: #fafafa;
+    width: 6rem;
+    height: 1.5rem;
+}
+
+#feedback {
+    background-color: rgb(20,34,43);
+    color: #fafafa 
+}
+
+::placeholder {
     color: #fafafa;
 }
 
@@ -222,15 +244,33 @@ p {
     }
 
     #hero-outer {
-        width: 400%;
+        width: 100%;
     }
 
     #hero-image {
-        max-width: 400%;
+        max-width: 100%;
+        background: url('../images/hero_image_mobile.webp') no-repeat center center;
     }
 
     #cover-text {
         left: 0;
+    }
+
+    #blog-list h2 {
+        font-size: .85rem;
+    }
+
+    #blog-list h3 {
+        font-size: .75rem;
+        overflow-wrap: break-word;
+    }
+
+    form {
+        padding-left: 0;
+    }
+
+    #feedback {
+        overflow-x: hidden;
     }
 }
 
