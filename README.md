@@ -177,7 +177,7 @@ In this section, list all of your user stories for the project.
   ![Navbar on Pixel 3aXL](documentation/nav-pixel3xl.gif)
   ![Navbar on Fairphone 4](documentation/nav-fairphone4.gif)
   ![Navbar on desktop 1440p](documentation/nav-desktop.gif)
-  ![Navbar on Lenovo Duet in tablet mode](documentation/nav-lenovo-duet.webm)
+  ![Navbar on Lenovo Duet in tablet mode](documentation/nav-lenovo-duet.gif)
   ![Navbar Code](documentation/navbar-code.png)
   ![Navbar Code 2](documentation/navbar-code-2.png)
 
