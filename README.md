@@ -154,7 +154,7 @@ In this section, list all of your user stories for the project.
 ### Future Features
 
 - Blog
-    - Monthly blogs on main page. Blog list boxes used as buttons to smooth scrool to 	  blog post on same page.
+    - Monthly blogs on main page. Blog list boxes used as buttons to smooth scrool to blog post on same page.
     
 - Hamburger menu
     - Navbar will switch to hamburger menu for mobile devices with media query.
@@ -291,5 +291,5 @@ You can fork this repository by using the following steps:
 - I would like to thank my mentor, Tim Nelson for his help throughout.
 
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
-- I would like to thank my spouse/partner (John/Jane), for believing in me, and allowing me to make this transition into software development.
+- I would like to thank my spouse/partner Rossana, for believing in me, and allowing me to make this transition into software development.
 - I would like to thank my employer, for supporting me in my career development change towards becoming a software developer.
