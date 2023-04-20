@@ -24,7 +24,6 @@ Users would be over the age of 16, but any age above, as long as they are physic
 
 ![screenshot](documentation/adobe-accessibility.png)
 
-```
 
 ### Typography
 
