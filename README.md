@@ -10,6 +10,8 @@ Users would be over the age of 16, but any age above, as long as they are physic
 
 ![screenshot](documentation/mockup.png)
 
+[Live site.](https://tadhgnolan.github.io/encyclopedia-exercitium)
+
 ## UX
 
 ### Colour Scheme
@@ -173,6 +175,7 @@ In this section, list all of your user stories for the project.
 # Testing
 
 - Navbar: Functions as intended on mobile, tablet and desktop
+
   ![Navbar on Pixel 3aXL](documentation/nav-pixel3xl.gif)
   ![Navbar on Fairphone 4](documentation/nav-fairphone4.gif)
   ![Navbar on desktop 1440p](documentation/nav-desktop.gif)
@@ -195,6 +198,7 @@ In this section, list all of your user stories for the project.
 
 ## Responsiveness
 - Website performed normally on mobile, desktop and tablet:
+
 ![Pixel3aXL](documentation/nav-pixel3xl.gif)
 ![Lenovo Duet in Tablet mode](documentation/nav-lenovo-duet.webm)
 ![Desktop PC 1440p](documentation/nav-desktop.gif)
