@@ -20,7 +20,6 @@ Users would be over the age of 16, but any age above, as long as they are physic
 - `#fafafa` used for text over background images.
 - `#f16d6b` used for background color.
 - `#000000` used for background color.
-- 
 
 ![screenshot](documentation/adobe-accessibility.png)
 
